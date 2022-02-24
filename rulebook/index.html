@@ -16,6 +16,7 @@
           name: 'UCA Documentation',
           el: '#app',
           repo: 'https://github.com/uruguaycricket/ucadocumentation/tree/main/rulebook',
+          homepage: 'README.md',
           autoHeader: true,
           auto2top: true,
           maxLevel: 2,
@@ -25,6 +26,9 @@
           coverpage: true,
           notFoundPage: 'my404.md',
           // logo: 'images/doc_logo.png'
+          alias: {
+            '/.*/_sidebar.md': '/_sidebar.md'
+    }
       }
     </script>
     </script>
