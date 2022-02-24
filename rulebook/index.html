@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lnag="en">
+<head>
+    <meta charset="UTF=8">
+    <title>UCA Documentation</title>
+    <meta http-equiv="X-UA-Compatible" content="IF=edge,chrome=1" />
+    <meta name="description" content="description">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" >
+</head>
+<body>
+    <div id="app"></div>
+    <script>
+      window.$docsify = {
+          name: 'UCA Documentation',
+          el: '#app',
+          repo: 'https://github.com/uruguaycricket/uruguaycricket.github.io/tree/main',
+          homepage: 'README.md',
+          autoHeader: true,
+          auto2top: true,
+          maxLevel: 2,
+          subMaxLevel: 2,
+          loadSidebar: true,
+          loadNavbar: true,
+          coverpage: true,
+          notFoundPage: 'my404.md',
+          // logo: 'images/doc_logo.png'
+      }
+    </script>
+    </script>
+    <style>
+      :root {
+        --mono-hue: 214;
+        --heading-color: #0b0e08;
+        --link-color: #AA005F;
+        --sidebar-nav-link-color: #34495e;
+        --sidebar-nav-link-color--active: var(--heading-color);
+        --sidebar-nav-link-border-color--active: var(--sidebar-nav-link-color --active);
+        --sidebar-name-color: var(--heading-color);
+        --sidebar-background: hsl(var(--mono-hue), 73%, 56%);
+        --sidebar-width : 20rem;
+        --sidebar-name-font-size: 1.6em;
+        --sidebar-name-font-weight: bold;
+        --sidebar-nav-strong-font-size  :   .8em;
+        --sidebar-nav-strong-padding	:   0.16em;
+        --sidebar-nav-link-background-size	:	.8em;
+        --sidebar-nav-link-background-size--active	:	.8em;
+        --sidebar-nav-link-background-size--hover   :	.8em;
+        --sidebar-nav-link-padding  : 0.16em 0;
+        --sidebar-nav-link-text-decoration--active	: underline;
+        --sidebar-nav-link-text-decoration--hover	: underline;
+        --sidebar-mv-pagelink-background-size   :   .6em;
+
+        --notice-important-background:	hsl(326, 60%, 96%);
+        --notice-important-border-color:	hsl(326, 100%, 33.3%);
+
+        --notice-tip-background: hsl(var(--mono-hue), 60%, 96%);
+        --notice-tip-border-color: hsl(var(--mono-hue), 100% 17.1%);
+
+        --docsifytabs-tab-highlight-color: hsl(326, 100%, 33.3%);
+
+        --zoomimage-overlay-background: rgba(0, 0, 0, 0.875);
+        --copycode-background: #808080;
+        --copycode-color     : #fff;
+
+        /* Cover
+        ================== */
+        --cover-color                                      : (0, 0%, 100%);
+        --cover-margin                                     : 0 auto;
+        --cover-max-width                                  : 40em;
+        --cover-text-align                                 : center;
+            /* Background */
+        --cover-background-blend-mode                      : normal;
+        --cover-background-color                           : hsl(var(--mono-hue), 65%, 55%);
+        --cover-background-image                           : ;
+        --cover-background-mask-color                      : hsl(var(--mono-hue), 65%, 55%);
+        --cover-background-mask-opacity                    : 0.8;
+        --cover-background-mask-visibility                 : ;
+        --cover-background-position                        : center center;
+        --cover-background-repeat                          : no-repeat;
+        --cover-background-size                            : cover;
+            /* Border */
+        --cover-border-inset                               : ;
+        --cover-border-color                               : hsl(var(--mono-hue), 73%, 56%);
+        --cover-border-width                               : ;
+      }
+
+      .sidebar-nav a {
+        white-space: normal !important;
+      }
+
+      .tooltip {
+          position: relative;
+          display: inline-block;
+          border-bottom: 2px solid #AA0061;          
+      }
+    </style>
+    <!-- <script src="lib/docsify.min.js"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+    <script src="//unpkg.com/prismjs/components/prism-http.min.js"></script>
+    <script src="//unpkg.com/prismjs/components/prism-json.min.js"></script>
+    <script src="//unpkg.com/prismjs/components/prism-hcl.min.js"></script>
+    <script src="//unpkg.com/prismjs/components/prism-yaml.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="lib/docsify-tabs@1.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script> -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+</body>
+</html>
